@@ -1,0 +1,455 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.4)  16 JAN 2016 01:55
+entering extended mode
+**Sol_doCarmo.tex
+(E:\CMU\Spring2016\MATH759\Sol_doCarmo\Sol_doCarmo\Sol_doCarmo.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
+, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
+ian, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
+ kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
+-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
+ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
+elsh, loaded.
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("D:\software\LaTeX\MikTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("D:\software\LaTeX\MikTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(C:\Users\Kevin\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip46
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip47
+\aftertitleunit=\skip48
+\ttl@plus=\dimen114
+\ttl@minus=\dimen115
+\ttl@toksa=\toks20
+\titlewidth=\dimen116
+\titlewidthlast=\dimen117
+\titlewidthfirst=\dimen118
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("D:\software\LaTeX\MikTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+("D:\software\LaTeX\MikTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen119
+\Hy@linkcounter=\count101
+\Hy@pagecounter=\count102
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count103
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing ON on input line 4461.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\hyperref\backref.sty"
+Package: backref 2012/07/25 v1.38 Bibliographical back referencing
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+))
+\c@Hy@tempcnt=\count104
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen120
+\Fld@menulength=\count105
+\Field@Width=\dimen121
+\Fld@charsize=\dimen122
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing ON on input line 6308.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count106
+\c@Item=\count107
+\c@Hfootnote=\count108
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count109
+\c@bookmark@seq@number=\count110
+\Hy@SectionHShift=\skip49
+)
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\oberdiek\bookmark.sty"
+Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
+File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
+\BKM@id=\count111
+))
+\c@theorem=\count112
+
+(E:\CMU\Spring2016\MATH759\Sol_doCarmo\Sol_doCarmo\Sol_doCarmo.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+
+(C:\Users\Kevin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count113
+\scratchdimen=\dimen123
+\scratchbox=\box29
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen124
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
+\everyMPtoPDFconversion=\toks22
+)
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring OFF on input line 68.
+ ("D:\software\LaTeX\MikTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("D:\software\LaTeX\MikTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count119
+)
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
+
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+ ("D:\software\LaTeX\MikTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+[1
+
+{C:/Users/Kevin/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.81 \end{abstract}
+                    [1] (E:\CMU\Spring2016\MATH759\Sol_doCarmo\Sol_doCarmo\Sol_doCarmo.toc)
+\tf@toc=\write3
+ [0
+
+]
+Chapter 0.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.98 \chapter
+             {RIEMANNIAN METRICS} [1
+
+]
+Chapter 1.
+[2
+
+]
+Chapter 2.
+[3
+
+]
+Chapter 3.
+[4
+
+]
+Chapter 4.
+[5
+
+]
+Chapter 5.
+[6
+
+]
+Chapter 6.
+[7
+
+]
+Chapter 7.
+[8
+
+]
+Chapter 8.
+[9
+
+]
+Chapter 9.
+[10
+
+]
+Chapter 10.
+[11
+
+]
+Chapter 11.
+[12
+
+]
+Chapter 12.
+[13
+
+]
+Chapter 13.
+[14
+
+]
+Chapter 14.
+LaTeX Font Info:    Try loading font information for U+euf on input line 179.
+("D:\software\LaTeX\MikTeX 2.9\tex\latex\amsfonts\ueuf.fd"
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+Overfull \hbox (0.24321pt too wide) in paragraph at lines 178--182
+[]\OT1/cmr/m/n/10 You can also ap-ply the spe-cial, math-e-mat-ics only com-mands $[]$ $[]$, $[]$,
+ []
+
+[15
+
+] [16]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 288.
+ ("D:\software\LaTeX\MikTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
+ [17]
+(E:\CMU\Spring2016\MATH759\Sol_doCarmo\Sol_doCarmo\Sol_doCarmo.brf)
+\tf@brf=\write4
+ [18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 442.
+ [19
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
+
+(E:\CMU\Spring2016\MATH759\Sol_doCarmo\Sol_doCarmo\Sol_doCarmo.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 442.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 442.
+Package rerunfilecheck Info: File `Sol_doCarmo.brf' has not changed.
+(rerunfilecheck)             Checksum: 3487EDDCA892E711AECC9674E995B355;234.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 442.
+ ) 
+Here is how much of TeX's memory you used:
+ 6788 strings out of 493921
+ 96888 string characters out of 3146882
+ 181308 words of memory out of 3000000
+ 9923 multiletter control sequences out of 15000+200000
+ 16441 words of font info for 63 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 32i,11n,33p,498b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/software/LaTeX/Mi
+kTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pf
+b><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/software/LaTeX/MikTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/
+software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/software/LaTeX/MikTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr9.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><D:/software
+/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/software/L
+aTeX/MikTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/eule
+r/eufm10.pfb><D:/software/LaTeX/MikTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Sol_doCarmo.pdf (22 pages, 308396 bytes).
+PDF statistics:
+ 369 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+
