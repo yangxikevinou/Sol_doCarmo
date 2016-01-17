@@ -3,7 +3,7 @@
 
 %------------------------------------------------------------
 %
-\documentclass{report}%
+\documentclass[pdftex, 12pt]{report}%
 %Options -- Point size:  10pt (default), 11pt, 12pt
 %        -- Paper size:  letterpaper (default), a4paper, a5paper, b5paper
 %                        legalpaper, executivepaper
@@ -29,8 +29,11 @@
 \usepackage{amssymb}%
 \usepackage{graphicx}
 \usepackage{fullpage}
+\usepackage[onehalfspacing]{setspace}
 \usepackage{titlesec}
+\usepackage{enumerate}
 \usepackage[pagebackref]{hyperref}
+\hypersetup{pdfstartview=FitH}
 \usepackage{bookmark}
 \bookmarksetup{numbered, open}
 
@@ -60,12 +63,13 @@
 
 %-------------------------------------------
 
-%\renewcommand{\thesection}{Chapter \arabic{section}-}
+\renewcommand{\thesubsection}{\arabic{subsection}}
 
 
 %-------------------------------------------
 
 \begin{document}
+
 
 \title{\Huge\bfseries Smoothie \vspace{20pt}\\* Solutions to Riemannian Geometry, do Carmo}
 
@@ -80,57 +84,64 @@
 This is a joint project by the graduate students taking 21-759 Differential Geometry offered in Spring 2016 at Carnegie Mellon University. Participants type up solutions to the exercises at the end of each chapter of the text book Riemannian Geometry by Manfredo Perdigao do Carmo, and supplement or elaborate the materials in the main body, hoping to better understand the subject matter, to create a document for future references, and to learn document collaboration with Git.
 \end{abstract}
 
+\setcounter{page}{1}
+\pagenumbering{roman}
 
 \tableofcontents
 
+\clearpage
 
 \setcounter{chapter}{-1}
 
 \pagenumbering{arabic}
-\setcounter{page}{0}
+\setcounter{page}{1}
 
 
 \chapter{DIFFERENTIABLE MANIFOLDS}
 
+\section*{EXERCISES}
+\subsection{Product manifold}\input{Ch1/Ch1E1}
+\subsection{Orientability of tangent bundle}
+
 
 \chapter{RIEMANNIAN METRICS}
-
+\section*{EXERCISES}
 
 \chapter{AFFINE CONNECTIONS; RIEMANNIAN CONNECTIONS}
-
+\section*{EXERCISES}
 
 \chapter{GEODESICS; CONVEX NEIGHBORHOODS}
-
+\section*{EXERCISES}
 
 \chapter{CURVATURE}
-
+\section*{EXERCISES}
 
 \chapter{JACOBI FIELDS}
-
+\section*{EXERCISES}
 
 \chapter{ISOMETRIC IMMERSIONS}
-
+\section*{EXERCISES}
 
 \chapter{COMPLETE MANIFOLDS; HOPF-RINOW AND HADAMARD THEOREMS}
-
+\section*{EXERCISES}
 
 \chapter{SPACES OF CONSTANT CURVATURE}
-
+\section*{EXERCISES}
 
 \chapter{VARIATIONS OF ENERGY}
-
+\section*{EXERCISES}
 
 \chapter{THE RAUCH COMPARISON THEOREM}
-
+\section*{EXERCISES}
 
 \chapter{THE MORSE INDEX THEOREM}
-
+\section*{EXERCISES}
 
 \chapter{THE FUNDAMENTAL GROUP OF MANIFOLDS OF NEGATIVE CURVATURE}
-
+\section*{EXERCISES}
 
 \chapter{THE SPHERE THEOREM}
-
+\section*{EXERCISES}
 
 
 % Let's keep the following illustration for now

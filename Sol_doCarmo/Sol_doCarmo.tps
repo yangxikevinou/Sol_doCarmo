@@ -17,7 +17,7 @@ Class=LaTeXView
 Document=Sol_doCarmo.tex
 
 [Frame0_View0,0]
-TopLine=114
+TopLine=110
 Cursor=3460
 
 [SessionInfo]

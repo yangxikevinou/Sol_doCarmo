@@ -1,0 +1,14 @@
+\begin{proof}
+\begin{enumerate}[(a)]
+	\item
+	Clearly, $M \times N$ is Hausdorff and second countable, and $\{U_\alpha \times V_\beta\}$ covers $M \times N$, with $\mathbf{z}_{\alpha,\beta}=(\mathbf{x}_\alpha,\mathbf{y}_\beta)$ being homeomorphic.
+	\par
+	Next, we show that the atlas is differentiable. Fix $(U_{\alpha_i} \times V_{\beta_i}, \mathbf{z}_{\alpha_i,\beta_i}) =: (W_i,\phi_i)$, where $i=1,2$, such that $O := \cap_{i=1}^2 \phi_i(W_i) \ne \emptyset$. Then the map $\phi_2^{-1} \circ \phi_1: \phi_1^{-1}(O) \ni (p,q) \mapsto \left(\mathbf{x}_{\alpha_2}^{-1} \circ \mathbf{x}_{\alpha_1}(p), \mathbf{y}_{\beta_2}^{-1} \circ \mathbf{y}_{\beta_1}(q)\right) \in \phi_2^{-1}(O), p\in\mathbb{R}^{\mathrm{dim }M}, q\in\mathbb{R}^{\mathrm{dim }N}$ is clearly differentiable, by definition of $\{(U_\alpha,\mathbf{x}_\alpha)\}$ and $\{(V_\beta,\mathbf{y}_\beta)\}$ being differentiable structures on $M$ and $N$, respectively. Hence by definition, $\{U_\alpha \times V_\beta\}$ is a differentiable atlas on $M \times N$, and thus induces a unique differentiable structure (note that $\{(U_\alpha \times V_\beta,\mathbf{z}_{\alpha,\beta})\}$ is not maximal) on $M \times N$. So $M \times N$ equipped with the given atlas above is a differentiable manifold.
+	\par
+	Now, we show that the projection onto $M$, $\pi_1: M \times N \ni (x,y) \mapsto x \in M, x \in M, y \in N$, is differentiable. Fix $(x,y) \in M \times N$, and take, for convenience, $(U_\alpha, \mathbf{x}_\alpha)$ and $(V_\beta, \mathbf{y}_\beta)$ as the charts, with $p:= \mathbf{x}_\alpha^{-1}(x) \in U_\alpha$ and $q:= \mathbf{y}_\beta^{-1}(y) \in V_\beta$. Then the local expression of $\pi_1$ in the chosen charts is $\left[x_\alpha^{-1} \circ \pi_1 \circ (x_\alpha, y_\beta)\right](p,q) = p$, which is obviously differentiable. Thus $\pi_1 \in C^\infty(M \times N; M)$.	By symmetry, the projection onto $N$, $\pi_2$, is also differentiable.
+	
+	\item
+	
+	
+\end{enumerate}
+\end{proof}
