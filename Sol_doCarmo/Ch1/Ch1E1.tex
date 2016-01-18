@@ -1,14 +1,38 @@
+{
+% add braces so that commands defined for convenience are restricted locally to this file only
+
+\subsection{Product manifold and quotient manifold by group action}
+
+% coordinate map for convenience
+\newcommand*{\x}{\mathbf{x}}
+\newcommand*{\y}{\mathbf{y}}
+\newcommand*{\z}{\mathbf{z}}
+% isomorphism (category as input)
+\newcommand*{\iso}[1]{\stackrel{\mathrm{#1.}}{\cong}}
+
 \begin{proof}
 \begin{enumerate}[(a)]
 	\item
-	Clearly, $M \times N$ is Hausdorff and second countable, and $\{U_\alpha \times V_\beta\}$ covers $M \times N$, with $\mathbf{z}_{\alpha,\beta}=(\mathbf{x}_\alpha,\mathbf{y}_\beta)$ being homeomorphic.
+	Clearly, $M \times N$ is Hausdorff and second countable, and $\{U_\alpha \times V_\beta\}$ covers $M \times N$, with $\z_{\alpha,\beta}=(\x_\alpha,\y_\beta)$ being homeomorphic.
 	\par
-	Next, we show that the atlas is differentiable. Fix $(U_{\alpha_i} \times V_{\beta_i}, \mathbf{z}_{\alpha_i,\beta_i}) =: (W_i,\phi_i)$, where $i=1,2$, such that $O := \cap_{i=1}^2 \phi_i(W_i) \ne \emptyset$. Then the map $\phi_2^{-1} \circ \phi_1: \phi_1^{-1}(O) \ni (p,q) \mapsto \left(\mathbf{x}_{\alpha_2}^{-1} \circ \mathbf{x}_{\alpha_1}(p), \mathbf{y}_{\beta_2}^{-1} \circ \mathbf{y}_{\beta_1}(q)\right) \in \phi_2^{-1}(O), p\in\mathbb{R}^{\mathrm{dim }M}, q\in\mathbb{R}^{\mathrm{dim }N}$ is clearly differentiable, by definition of $\{(U_\alpha,\mathbf{x}_\alpha)\}$ and $\{(V_\beta,\mathbf{y}_\beta)\}$ being differentiable structures on $M$ and $N$, respectively. Hence by definition, $\{U_\alpha \times V_\beta\}$ is a differentiable atlas on $M \times N$, and thus induces a unique differentiable structure (note that $\{(U_\alpha \times V_\beta,\mathbf{z}_{\alpha,\beta})\}$ is not maximal) on $M \times N$. So $M \times N$ equipped with the given atlas above is a differentiable manifold.
+	Next, we shall show that the atlas is differentiable. Fix $(U_{\alpha_i} \times V_{\beta_i}, \z_{\alpha_i,\beta_i}) =: (W_i,\phi_i)$, where $i=1,2$, such that $O := \cap_{i=1}^2 \phi_i(W_i) \ne \emptyset$. Then the map
+	\[\phi_2^{-1} \circ \phi_1: \phi_1^{-1}(O) \ni (p,q) \mapsto \left(\x_{\alpha_2}^{-1} \circ \x_{\alpha_1}(p), \y_{\beta_2}^{-1} \circ \y_{\beta_1}(q)\right) \in \phi_2^{-1}(O), p\in\mathbb{R}^{\mathrm{dim }M}, q\in\mathbb{R}^{\mathrm{dim }N}\]
+	is clearly differentiable, by definition of $\{(U_\alpha,\x_\alpha)\}$ and $\{(V_\beta,\y_\beta)\}$ being differentiable structures on $M$ and $N$, respectively. Hence by definition, $\{U_\alpha \times V_\beta\}$ is a differentiable atlas on $M \times N$, and thus induces a unique differentiable structure (note that $\{(U_\alpha \times V_\beta,\z_{\alpha,\beta})\}$ is not maximal) on $M \times N$. So $M \times N$ equipped with the given atlas above is a differentiable manifold.
 	\par
-	Now, we show that the projection onto $M$, $\pi_1: M \times N \ni (x,y) \mapsto x \in M, x \in M, y \in N$, is differentiable. Fix $(x,y) \in M \times N$, and take, for convenience, $(U_\alpha, \mathbf{x}_\alpha)$ and $(V_\beta, \mathbf{y}_\beta)$ as the charts, with $p:= \mathbf{x}_\alpha^{-1}(x) \in U_\alpha$ and $q:= \mathbf{y}_\beta^{-1}(y) \in V_\beta$. Then the local expression of $\pi_1$ in the chosen charts is $\left[x_\alpha^{-1} \circ \pi_1 \circ (x_\alpha, y_\beta)\right](p,q) = p$, which is obviously differentiable. Thus $\pi_1 \in C^\infty(M \times N; M)$.	By symmetry, the projection onto $N$, $\pi_2$, is also differentiable.
+	Finally, we shall show that the projection onto $M$, 
+	\[\pi_1: M \times N \ni (x,y) \mapsto x \in M, x \in M, y \in N,\]
+	is differentiable. Fix $(x,y) \in M \times N$, and take, for convenience, $(U_\alpha, \x_\alpha)$ and $(V_\beta, \y_\beta)$ as the charts, with $p:= \x_\alpha^{-1}(x) \in U_\alpha$ and $q:= \y_\beta^{-1}(y) \in V_\beta$. Then the local expression of $\pi_1$ in the chosen charts is $\left[x_\alpha^{-1} \circ \pi_1 \circ (x_\alpha, y_\beta)\right](p,q) = p$, which is obviously differentiable. Thus $\pi_1 \in C^\infty(M \times N; M)$.	By symmetry, the projection onto $N$, $\pi_2$, is also differentiable.
 	
 	\item
-	
+	We shall prove a slightly more general result: $\prod_{n=1}^N (M_n/G_n) \iso{diff} \left(\prod_{n=1}^N M_n\right)/\left(\prod_{n=1}^N G_n\right)$, where each group $G_n$ is a properly discontinuous action on the differentiable manifold $M_n$. In view of Example 4.8 and Part (a), $\prod_{n=1}^N (M_n/G_n)$ and $\prod_{n=1}^N M_n$ are differentiable manifolds with the associated product differentiable structures. We shall show that $\prod_{n=1}^N G_n$ acts on $\prod_{n=1}^N M_n$ properly discontinuously and that the associated quotient differentiable structure coincides with the product differentiable structure of $\prod_{n=1}^N (M_n/G_n)$.
+	\par
+	As a corollary, $\left(S^1\right)^n \iso{diff} T^n$ follows from the fact that $S^1 \iso{diff} \mathbb{R}/\mathbb{Z} \iso{diff} T^1$.
+	\par
+	We first check that $\prod_{n=1}^N G_n$ is a properly discontinuous group action on $\prod_{n=1}^N M_n$. Fix $g_n \in G_n$ for every $n$, since $p_n \mapsto g_n p_n$ is a diffeomorphic automorphism on $M_n$, $p:=(p_1,\dots,p_N) \mapsto (g_1 p_1, \dots, g_N p_N):=g p$ is also a diffeomorphic automorphism on $\prod_{n=1}^N M_n$. Fix $p_n \in M_n$, by proper discontinuity of $G_n$ on $M_n$, we can find an open subset of $M_n$ $U_n \in p_n$ such that $U_n \cap g_n(U_n) = \emptyset$. Note that $\prod_{n=1}^N U_n$ is and open neighborhood of $p \in \prod_{n=1}^N M_n/$, and that $\prod_{n=1}^N U_n \cap \prod_{n=1}^N g_n(U_n) = \emptyset$, so $\prod_{n=1}^N G_n$ is a properly discontinuous action on $\prod_{n=1}^N U_n$.
+	\par
+	Now we shall show that the product differentiable structure is the same as the quotient differentiable structure, and this completes the proof. 
 	
 \end{enumerate}
 \end{proof}
+
+}
