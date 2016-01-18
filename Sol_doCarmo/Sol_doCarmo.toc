@@ -1,27 +1,27 @@
 \contentsline {chapter}{\numberline {0}DIFFERENTIABLE MANIFOLDS}{1}{chapter.0}
 \contentsline {subsection}{\numberline {1}Product manifold and quotient manifold by group action}{1}{subsection.0.0.1}
-\contentsline {subsection}{\numberline {2}Orientability of tangent bundle}{2}{subsection.0.0.2}
-\contentsline {chapter}{\numberline {1}RIEMANNIAN METRICS}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}AFFINE CONNECTIONS; RIEMANNIAN CONNECTIONS}{4}{chapter.2}
-\contentsline {chapter}{\numberline {3}GEODESICS; CONVEX NEIGHBORHOODS}{5}{chapter.3}
-\contentsline {chapter}{\numberline {4}CURVATURE}{6}{chapter.4}
-\contentsline {chapter}{\numberline {5}JACOBI FIELDS}{7}{chapter.5}
-\contentsline {chapter}{\numberline {6}ISOMETRIC IMMERSIONS}{8}{chapter.6}
-\contentsline {chapter}{\numberline {7}COMPLETE MANIFOLDS; HOPF-RINOW AND HADAMARD THEOREMS}{9}{chapter.7}
-\contentsline {chapter}{\numberline {8}SPACES OF CONSTANT CURVATURE}{10}{chapter.8}
-\contentsline {chapter}{\numberline {9}VARIATIONS OF ENERGY}{11}{chapter.9}
-\contentsline {chapter}{\numberline {10}THE RAUCH COMPARISON THEOREM}{12}{chapter.10}
-\contentsline {chapter}{\numberline {11}THE MORSE INDEX THEOREM}{13}{chapter.11}
-\contentsline {chapter}{\numberline {12}THE FUNDAMENTAL GROUP OF MANIFOLDS OF NEGATIVE CURVATURE}{14}{chapter.12}
-\contentsline {chapter}{\numberline {13}THE SPHERE THEOREM}{15}{chapter.13}
-\contentsline {chapter}{\numberline {14}ILLUSTRATION}{16}{chapter.14}
-\contentsline {section}{\numberline {14.1}Introduction}{16}{section.14.1}
-\contentsline {section}{\numberline {14.2}The Most Important Features}{16}{section.14.2}
-\contentsline {subsection}{\numberline {1}Subsection}{16}{subsection.14.2.1}
-\contentsline {subsubsection}{Subsubsection}{16}{subsubsection*.2}
-\contentsline {paragraph}{Paragraph}{16}{paragraph*.3}
-\contentsline {subparagraph}{Subparagraph}{17}{subparagraph*.4}
-\contentsline {subsection}{\numberline {2}Mathematics and Text}{18}{subsection.14.2.2}
-\contentsline {subsection}{\numberline {3}List Environments}{18}{subsection.14.2.3}
-\contentsline {subsection}{\numberline {4}Theorem-like Environments}{19}{subsection.14.2.4}
-\contentsline {section}{\numberline {.1}The First Appendix}{21}{section.Alph0.1}
+\contentsline {subsection}{\numberline {2}Orientability of tangent bundle}{3}{subsection.0.0.2}
+\contentsline {chapter}{\numberline {1}RIEMANNIAN METRICS}{4}{chapter.1}
+\contentsline {chapter}{\numberline {2}AFFINE CONNECTIONS; RIEMANNIAN CONNECTIONS}{5}{chapter.2}
+\contentsline {chapter}{\numberline {3}GEODESICS; CONVEX NEIGHBORHOODS}{6}{chapter.3}
+\contentsline {chapter}{\numberline {4}CURVATURE}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}JACOBI FIELDS}{8}{chapter.5}
+\contentsline {chapter}{\numberline {6}ISOMETRIC IMMERSIONS}{9}{chapter.6}
+\contentsline {chapter}{\numberline {7}COMPLETE MANIFOLDS; HOPF-RINOW AND HADAMARD THEOREMS}{10}{chapter.7}
+\contentsline {chapter}{\numberline {8}SPACES OF CONSTANT CURVATURE}{11}{chapter.8}
+\contentsline {chapter}{\numberline {9}VARIATIONS OF ENERGY}{12}{chapter.9}
+\contentsline {chapter}{\numberline {10}THE RAUCH COMPARISON THEOREM}{13}{chapter.10}
+\contentsline {chapter}{\numberline {11}THE MORSE INDEX THEOREM}{14}{chapter.11}
+\contentsline {chapter}{\numberline {12}THE FUNDAMENTAL GROUP OF MANIFOLDS OF NEGATIVE CURVATURE}{15}{chapter.12}
+\contentsline {chapter}{\numberline {13}THE SPHERE THEOREM}{16}{chapter.13}
+\contentsline {chapter}{\numberline {14}ILLUSTRATION}{17}{chapter.14}
+\contentsline {section}{\numberline {14.1}Introduction}{17}{section.14.1}
+\contentsline {section}{\numberline {14.2}The Most Important Features}{17}{section.14.2}
+\contentsline {subsection}{\numberline {1}Subsection}{17}{subsection.14.2.1}
+\contentsline {subsubsection}{Subsubsection}{17}{subsubsection*.2}
+\contentsline {paragraph}{Paragraph}{17}{paragraph*.3}
+\contentsline {subparagraph}{Subparagraph}{18}{subparagraph*.4}
+\contentsline {subsection}{\numberline {2}Mathematics and Text}{19}{subsection.14.2.2}
+\contentsline {subsection}{\numberline {3}List Environments}{19}{subsection.14.2.3}
+\contentsline {subsection}{\numberline {4}Theorem-like Environments}{20}{subsection.14.2.4}
+\contentsline {section}{\numberline {.1}The First Appendix}{22}{section.Alph0.1}
