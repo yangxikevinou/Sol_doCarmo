@@ -28,9 +28,12 @@
 \usepackage{amsfonts}%
 \usepackage{amssymb}%
 \usepackage{graphicx}
-\usepackage{fullpage}
+\usepackage[margin=1in]{geometry}
 \usepackage[onehalfspacing]{setspace}
 \usepackage{titlesec}
+\usepackage{fancyhdr}
+\setlength{\headheight}{25pt}
+\pagestyle{fancy}
 \usepackage{enumerate}
 \usepackage[pagebackref]{hyperref}
 \hypersetup{pdfstartview=FitH}
@@ -68,6 +71,7 @@
 
 %-------------------------------------------
 
+
 \begin{document}
 
 
@@ -84,10 +88,28 @@
 This is a joint project by the graduate students taking 21-759 Differential Geometry offered in Spring 2016 at Carnegie Mellon University. Participants type up solutions to the exercises at the end of each chapter of the text book Riemannian Geometry by Manfredo Perdigao do Carmo, and supplement or elaborate the materials in the main body, hoping to better understand the subject matter, to create a document for future references, and to learn document collaboration with Git.
 \end{abstract}
 
+\clearpage
+
+
+\lhead{} \chead{} \rhead{}
+
+
 \setcounter{page}{1}
 \pagenumbering{roman}
 
-\tableofcontents
+\setcounter{tocdepth}{1} % hide all subsections in TOC
+\tableofcontents\chead{Contents}
+
+\clearpage
+
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\chapter*{PREFACE}\chead{PREFACE}
+\addcontentsline{toc}{chapter}{PREFACE}
+% We will fill it in later for acknowledgement or something when we are almost done
+
 
 \clearpage
 
@@ -98,101 +120,184 @@ This is a joint project by the graduate students taking 21-759 Differential Geom
 
 
 \chapter{DIFFERENTIABLE MANIFOLDS}
+\chead{DIFFERENTIABLE MANIFOLDS}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
 
 \section*{EXERCISES}
-	\input{Ch1/Ch1E1}
-	\input{Ch1/Ch1E2}
+\addcontentsline{toc}{section}{EXERCISES}
+	\input{Ch0/Ch0E1} % Kevin
+	\input{Ch0/Ch0E2} % Antoine
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{RIEMANNIAN METRICS}
+\chead{RIEMANNIAN METRICS}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{AFFINE CONNECTIONS; RIEMANNIAN CONNECTIONS}
+\chead{AFFINE CONNECTIONS; RIEMANNIAN CONNECTIONS}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{GEODESICS; CONVEX NEIGHBORHOODS}
+\chead{GEODESICS; CONVEX NEIGHBORHOODS}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{CURVATURE}
+\chead{CURVATURE}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{JACOBI FIELDS}
+\chead{JACOBI FIELDS}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{ISOMETRIC IMMERSIONS}
+\chead{ISOMETRIC IMMERSIONS}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{COMPLETE MANIFOLDS; HOPF-RINOW AND HADAMARD THEOREMS}
+\chead{COMPLETE MANIFOLDS; HOPF-RINOW AND HADAMARD THEOREMS}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{SPACES OF CONSTANT CURVATURE}
+\chead{SPACES OF CONSTANT CURVATURE}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{VARIATIONS OF ENERGY}
+\chead{VARIATIONS OF ENERGY}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{THE RAUCH COMPARISON THEOREM}
+\chead{THE RAUCH COMPARISON THEOREM}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{THE MORSE INDEX THEOREM}
+\chead{THE MORSE INDEX THEOREM}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{THE FUNDAMENTAL GROUP OF MANIFOLDS OF NEGATIVE CURVATURE}
+\chead{THE FUNDAMENTAL GROUP OF MANIFOLDS OF NEGATIVE CURVATURE}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 
 
 \chapter{THE SPHERE THEOREM}
+\chead{THE SPHERE THEOREM}
+
+\section*{NOTES}
+\addcontentsline{toc}{section}{NOTES}
+
 \section*{EXERCISES}
+\addcontentsline{toc}{section}{EXERCISES}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
 	%\input{Ch1/Ch1E2}
@@ -202,6 +307,7 @@ This is a joint project by the graduate students taking 21-759 Differential Geom
 % Let's keep the following illustration for now
 %------------------------------------------------------------
 \chapter{ILLUSTRATION}
+\chead{ILLUSTRATION}
 
 \section{Introduction}
 
