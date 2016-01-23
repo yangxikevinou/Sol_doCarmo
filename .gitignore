@@ -41,6 +41,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+<<<<<<< HEAD
 Sol_doCarmo/Sol_doCarmo.tps
 Sol_doCarmo/Sol_doCarmo.aux
 Sol_doCarmo/Sol_doCarmo.bbl
@@ -48,3 +49,7 @@ Sol_doCarmo/Sol_doCarmo.toc
 Sol_doCarmo/Sol_doCarmo.blg
 Sol_doCarmo/Sol_doCarmo.log
 Sol_doCarmo/Sol_doCarmo.brf
+=======
+Sol_doCarmo/Sol_doCarmo.log
+*.blg
+>>>>>>> refs/remotes/origin/master
