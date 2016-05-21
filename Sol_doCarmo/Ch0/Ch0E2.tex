@@ -1,10 +1,34 @@
+% Kevin Ou
+
 {
 % add braces so that commands defined for convenience are restricted locally to this file only
+
+\newcommand*{\R}{\mathbb{R}} % real numbers
+\renewcommand*{\d}{\mathrm{d}\,} % differential, exterior derivative
+\newcommand*{\D}{\mathrm{D}\,} % Jacobian, covariant derivative
+
 
 \subsection{Orientability of tangent bundle}
 
 \begin{proof}
-
+To show that $TM$ is orientable, we have to check that the determinant of every transition map in a certain atlas is always positive.
+\par
+Let $\{(U,\varphi)\}$ be a chart on $M$, then define $\tilde{\varphi}:U\times \R^n \rightarrow TM$ via $\tilde{\varphi}(x,a):=\left(\varphi(x), a^i \frac{\partial}{\partial x_i} \right)$, with $x,a\in \R^n, x\in U$. Clearly $\left(U\times \R^n, \tilde{\varphi} \right)$ is a chart on $TM$.
+\par
+Fix two charts $\left(U\times \R^n, \tilde{\varphi} \right)$ and $\left(V\times \R^n, \tilde{\psi} \right)$ on $TM$ with $\varphi(U) \cap \psi(V) \ne \emptyset$. Let ${x\in U}, {y\in V}, a,b \in \R^n$ be such that $\tilde{\varphi}(x,a)=\left(\varphi(x), a^i \frac{\partial}{\partial x_i} \right) = \left(\psi(y), b^i \frac{\partial}{\partial y_i} \right) = \tilde{\psi}(y,b)$. Thus, $x = \varphi^{-1}\circ\psi(y)$.
+\par
+Note that $t\mapsto \varphi\left(\varphi^{-1}(p)+ta \right) = \varphi(x+ta)$ is a representative of $a^i \frac{\partial}{\partial x_i}$, where $\varphi(x)=:p \in M$. Thus,
+$$a = \frac{\d}{\d t}\bigg|_{t=0}\varphi^{-1}\left(\varphi(x+ta)\right) = \frac{\d}{\d t}\bigg|_{t=0}\varphi^{-1}\left(\psi(y+tb)\right) = D\left(\varphi^{-1}\circ\psi \right)(y) b.$$
+Hence, $\tilde{\varphi}^{-1}\circ\tilde{\psi}(y,b) = (x,a) = \left(\varphi^{-1}\circ\psi(y), \D\left(\varphi^{-1}\circ\psi\right)(y) b \right)$. Then,
+$$\D\left(\tilde{\varphi}^{-1}\circ\tilde{\psi}\right)(y,b) = 
+\begin{bmatrix}
+	\D\left(\varphi^{-1}\circ\psi\right)(y) & 0 \\
+	\cdots & \D\left(\varphi^{-1}\circ\psi\right)(y)
+\end{bmatrix},
+$$
+which obviously has positive determinant $\det \D\left(\tilde{\varphi}^{-1}\circ\tilde{\psi}\right)(y,b) = \left[\det \D\left(\varphi^{-1}\circ\psi\right)(y) \right]^2 >0$.
+\par
+So by definition, $TM$ is orientable.
 
 
 \end{proof}
