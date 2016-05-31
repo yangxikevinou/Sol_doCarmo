@@ -1,0 +1,24 @@
+% Kevin Ou
+
+{
+% add braces so that commands defined for convenience are restricted locally to this file only
+
+\subsection{Symmetry of shape operator and its directional derivative}
+
+\newcommand*{\X}{\mathcal{X}} % smooth vector field
+
+\begin{proof}
+Abusing notations, let $S_\eta(X,Y)=\langle S_\eta(X), Y\rangle \in \mathbb{R}, \forall X,Y \in \X(M), \eta \in \X^\bot(M)$.
+\par
+$\forall \eta \in \X^\bot(M)$, $S_\eta$ is symmetric, so $S_\eta(X,Y)=S_\eta(Y,X)$. But on $M$,
+\begin{align*}
+V\left[S_\eta(X,Y)\right] = \nabla_V S_\eta(X,Y) + S_\eta(\nabla_V X, Y) + S_\eta(X, \nabla_V Y), \\
+V\left[S_\eta(Y,X)\right] = \nabla_V S_\eta(Y,X) + S_\eta(\nabla_V Y, X) + S_\eta(Y, \nabla_V X). 
+\end{align*}
+Then by symmetry of $S_\eta$ again, we have $\nabla_V S_\eta(X,Y) = \nabla_V S_\eta(Y,X), \forall V \in \X(M)$.
+\par
+Thus, $\nabla_V S_\eta$ is symmetric, too, $\forall V\in \X(M), \eta \in \X^\bot(M)$.
+
+\end{proof}
+
+}
